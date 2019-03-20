@@ -1,0 +1,75 @@
+body{
+	background-color: #505050;
+	color: red;
+	font-size: 35px;
+	width: 1100px;
+	height: 2000px;
+}
+div{
+	
+}
+div.head{
+	display: run-in;
+	width: 1100px;
+	height: 250px;
+	/*max-height:600px;
+	min-height: 180px;
+	max-width: 700px;
+	min-width: 130px;*/
+	background-color: darkblue;
+	text-align: right;
+}
+div.left{ 
+	margin-right: 0px;
+	clear: both;
+	width: 300px;
+	height: auto;
+	/*max-height:200px;
+	min-height: 80px;
+	max-width: 100px;
+	min-width: 30px;*/
+	background-color: blue;
+	float: left;
+	border:9px solid #0f0000;
+	border-radius: 20px;
+}
+div.right{
+	margin-left: 0px;
+	clear: right;
+	width: 750px;
+	height: auto;
+	/*max-height:400px;
+	min-height: 100px;
+	max-width: 600px;
+	min-width: 100px;*/
+	font-size: 50%;
+	background-color: lightblue;
+	float: right;
+	border:9px solid #0f0000;
+	border-radius: 20px;
+}
+div.left a:link{
+	color: red;
+}
+div.left a:visited{
+	color: darkred;
+}
+div.left a:hover{
+	color: yellow;
+}
+div.left a:active{
+	color: #ffff000f;
+}
+
+.under_dash{
+	border-bottom-style: dashed;
+	border-bottom-width: 5px;
+	border-bottom-color: red;
+}
+.inside{
+	width: 650px;
+	height: 400;
+	text-align: left;
+	margin-top:5px;
+	float: left;
+}

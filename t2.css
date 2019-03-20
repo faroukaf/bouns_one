@@ -1,0 +1,51 @@
+body{
+	background-color: #ff0000;
+	width: 2000px;
+	height: 2000px;
+}
+
+div{
+	padding-left: .3%;
+	padding-top: .3%;
+}
+#main{
+	padding: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	border:5px solid #000000; 
+}
+#header{
+	background-image: url(https://futureoflife.org/wp-content/uploads/2017/12/2018-AI-safety-grants-845x321.jpg?x72847);
+	background-position: center;
+	background-repeat: no-repeat;;
+	background-size: 2000px 750px;
+	width: 2000px;
+	height: 759.763313609px;
+	color:gold;
+	font-size: 150px;
+}
+#aside{
+	width: 500px;
+	height: 1000px;
+	background-color: brown;
+	float: right;
+}
+#article{
+	width: 1500px;
+	height: 1000px;
+	background-color: tan;
+}
+#article  h1{
+	color:red; 
+}
+#footer{
+	width: 2000px;
+	height: 250px;
+	background-image: url(https://adamlevin.com/wp-content/uploads/2018/02/ThinkstockPhotos-614850238.jpg);
+	background-size: 2000px 1111.972437554px;
+	clear: both;
+	text-align: center;
+	color: silver;
+	font-size: 100px
+}
